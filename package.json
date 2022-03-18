@@ -1,0 +1,19 @@
+{
+  "name": "rbmq_publish_subscribe_ts",
+  "version": "1.0.0",
+  "description": "working with RabbitMQ publish/subscribe pattern",
+  "main": "index.js",
+  "scripts": {
+    "publish": "node emit_log.js",
+    "consume": "node receive_log.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqp-ts": "^1.8.0",
+    "amqplib": "^0.8.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.2"
+  }
+}
